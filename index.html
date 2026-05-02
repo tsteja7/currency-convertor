@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INR to USD Currency Converter</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="converter-card">
+    <h1>INR to USD Converter</h1>
+    <p>Enter an amount in INR and see the converted value in USD.</p>
+    <label for="inrAmount">Amount in INR</label>
+    <input id="inrAmount" type="number" min="0" placeholder="Enter INR" />
+
+    <label for="usdAmount">Converted Amount in USD</label>
+    <input id="usdAmount" type="text" readonly placeholder="$0.00" />
+
+    <button id="convertButton" type="button">Convert</button>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
